@@ -1,0 +1,28 @@
+{
+  "name": "protractor-saucelabs-parallel",
+  "version": "0.0.2",
+  "description": "Example project to show the protractor/saucelabs setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrewPetrucci/unitTests/protractor-saucelabs-parallel.git"
+  },
+  "homepage": "https://github.com/AndrewPetrucci/unitTests/protractor-saucelabs-parallel.git",
+  "author": "Andrew Petrucci",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-env": "^0.4.4",
+    "grunt-protractor-runner": "^0.2.4",
+    "grunt-shell-spawn": "^0.3.0",
+    "lodash": "latest",
+    "protractor": "^0.20.1",
+    "wd": "latest"
+  }
+}
